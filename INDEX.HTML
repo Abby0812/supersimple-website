@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    
+    
+
+    <header class="header">
+        <a href="#" class="logo">Abby's Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=100028887853970"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://instagram.com/geline_victoriaaa?igshid=MzMyNGUyNmU2YQ=="><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://twitter.com/geline_victoria"><i class='bx bxl-twitter' ></i></a>
+        </div>
+
+        <div class="home-content">
+            <h1>Hi! I'am <span>Angeline V.</span></h1>
+            <h3>19 years of age</h3>
+            <p>Welcome! My name is Angeline Victoria Pesco but you can call me Abby. I'm currently a 2nd yr student taking up a Bachelor of Science in Office Administratio in Polytechnic University of the Philippines </p>
+
+            <a href="more.html" class="btn">More</a>
+        </div>
+
+        <img class="image" src="home.png" alt="bg">
+    </section>
+
+    <!-- about section design -->
+    <section-1 class="about" id="about">
+        <h2 class="heading">About<span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="about.JPG" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h4>Angeline Victoria S. Pesco</h4>
+            <p>Hello! My full name is Angeline Victoria Sapilan. Pesco but you can call me Abby, that's my nickname. Iam 19 years old, from Barangay sta. Cruz Antipolo City.
+                I don't have a siblings but we do have a dogs and cats. I'am a pet lover that's we have many pets. One of my hobbies is watching, i really love watching movies, k-dramas, anime and more... 
+                I also love to crochet especially amigurumi 'cause it's cute, sometimes i also play badminton or volleyball. Now i am currently a 2nd yr student enrolled in Polytechnic University of the Philippines 
+                taking up a bachelor of science in Office Administration.</p>
+
+            <div class="btn-box btns">
+                <a href="more.html" class="btn">Read More</a>
+            </div>
+        </div>
+    </section-1>
+
+    <!-- skills section design -->
+    <section-2 class="skills" id="skills">
+        <h2 class="heading">My<span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Profesional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Microsoft Office <span>83%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Data Entry <span>97%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Design <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Product Research <span>98%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Personal Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Confidence <span>88%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Creativity <span>95%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Time Management <span>88%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Work Under Pressure <span>87%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section-2>
+
+    <!-- hobbies section design -->
+    <section-3 class="hobbies" id="hobbies">
+        <h2 class="heading">My<span>Hobbies</span></h2>
+
+        <div class="hobbies-img">
+            <img src="kdrama.jpg" width="230px" height="350px">
+            <img src="crochet.jpg" width="230px" height="350px">
+            <img src="music.jpg" width="230px" height="350px">
+            <img src="reading.jpg" width="230px" height="350px">
+            <img src="anime.jpg" width="230px" height="350px">
+        </div>
+    </section-3>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>By: Angeline Victoria S. Pesco // All Rights Reserved 2023</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bxs-calendar'></i></a>
+        </div>
+    </footer>
+
+    <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
